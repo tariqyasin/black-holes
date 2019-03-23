@@ -1,5 +1,5 @@
 data/
-.pyc
+*.pyc
 __pycache__/
-.vscode/
-.DS_Store
+*.vscode/
+*.DS_Store
