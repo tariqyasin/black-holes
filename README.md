@@ -26,7 +26,7 @@ The code has been tested with the indicated package versions. In particular the 
 
 ## Files
 
-The pipeline consists of a large range of files and folders. Listed are some of the mots important.
+The pipeline consists of a large range of files and folders. The main ones are listed below.
 
 __`main.py`__:
 
