@@ -70,7 +70,7 @@ Contains a function to fit a line-of-sight velocity profile to the HARMONI outpu
 
 __`modules/fit_tools/fit_mass.py`__:
 
-Contains a function to fit a line-of-sight velocity profile to the HARMONI output datacube.
+Contains a function to fit a black hole mass to using the recovered line-of-sight velocity profile.
 
 
 
