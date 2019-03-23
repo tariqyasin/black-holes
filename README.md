@@ -12,7 +12,7 @@ By running this pipeline for a large variety of NSC and black hole parameters I 
 
 ## Requirements
 
-The pipeline is written in Python v2.7. Tested on MacOS 10.13 only, but should work on Linux and Windows. 
+The pipeline is written in Python v2.7. Tested on MacOS only, but should work on Linux and Windows. 
 
 The required Python modules are:
 - numpy 1.10.4
