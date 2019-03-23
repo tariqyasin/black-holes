@@ -1,6 +1,6 @@
 # Intermediate Mass Black Holes with HARMONI
 
-## PURPOSE:
+## Purpose
 
 A pipeline that does the following:
   1. Create an input datacube for HSIM representing a Nuclear Star Cluster (NSC) with a central black hole.
@@ -10,7 +10,7 @@ A pipeline that does the following:
 
 By running this pipeline for a large variety of NSC and black hole parameters I could make an early assessment of HARMONI's future performance in its search for intermediate mass black holes. Please note that due to the large amount of computation involved the pipeline takes a long time to run when using datacubes with HARMONI's full field of view. 
 
-## REQUIREMENTS:
+## Requirements
 
 The pipeline is written in Python v2.7. Tested on MacOS 10.13 only, but should work on Linux and Windows. 
 
@@ -24,12 +24,12 @@ The required Python modules are:
 
 The code has been tested with the indicated package versions. In particular the pipeline is known not to work with some future versions of numpy.
 
-## FILES:
+## Files
 
-The pipeline consists of a large range of files and folders. 
+The pipeline consists of a large range of files and folders. Listed are some of the mots important.
 
 `main.py`:
-------------------
+
 Runs the entire pipeline. 
 
 example:
@@ -49,27 +49,27 @@ Arguments:
   9. Number of processors to use
 
 `hsim/`:
-------------------
+
 Within the `hsim` subfolder is a lightly edited version of the HARMONI Simulation Pipeline (written by Simon Zieleniewski). Please see `hsim/README.md` for details of its arguments.
 
 `jeans.py`:
-------------------
+
 Contains a class that creates a Jeans model of a Nuclear Star Cluster. Contains a second class that projects the Jeans model onto a plane.
 
 `grid_model.py`:
-------------------
+
 Contains a function that carries out pixel integration of the projected Jeans model onto a 2D grid.
 
 `input_cube.py`:
-------------------
+
 Contains the function that produces a HARMONI ready input datacube.
 
 `modules/fit_tools/cubefit.py`:
-------------------
+
 Contains a function to fit a line-of-sight velocity profile to the HARMONI output datacube.
 
 `modules/fit_tools/fit_mass.py`:
-------------------
+
 Contains a function to fit a line-of-sight velocity profile to the HARMONI output datacube.
 
 
