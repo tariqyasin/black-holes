@@ -28,7 +28,7 @@ The code has been tested with the indicated package versions. In particular the 
 
 The pipeline consists of a large range of files and folders. Listed are some of the mots important.
 
-`main.py`:
+__`main.py`__:
 
 Runs the entire pipeline. 
 
@@ -48,27 +48,27 @@ Arguments:
   8. Spaxel size
   9. Number of processors to use
 
-`hsim/`:
+__`hsim/`__:
 
 Within the `hsim` subfolder is a lightly edited version of the HARMONI Simulation Pipeline (written by Simon Zieleniewski). Please see `hsim/README.md` for details of its arguments.
 
-`jeans.py`:
+__`jeans.py`__:
 
 Contains a class that creates a Jeans model of a Nuclear Star Cluster. Contains a second class that projects the Jeans model onto a plane.
 
-`grid_model.py`:
+__`grid_model.py`__:
 
 Contains a function that carries out pixel integration of the projected Jeans model onto a 2D grid.
 
-`input_cube.py`:
+__`input_cube.py`__:
 
 Contains the function that produces a HARMONI ready input datacube.
 
-`modules/fit_tools/cubefit.py`:
+__`modules/fit_tools/cubefit.py`__:
 
 Contains a function to fit a line-of-sight velocity profile to the HARMONI output datacube.
 
-`modules/fit_tools/fit_mass.py`:
+__`modules/fit_tools/fit_mass.py`__:
 
 Contains a function to fit a line-of-sight velocity profile to the HARMONI output datacube.
 
