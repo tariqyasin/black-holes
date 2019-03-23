@@ -32,11 +32,6 @@ __`main.py`__:
 
 Runs the entire pipeline. 
 
-example:
-python main.py data example3 0.10  5e6  1e7  10.0  1.0 4 1
-
-This stores the output files of the pipeline into the folder 'data/example' (creating it if it doesnt exist).
-
 Arguments:
   1. Where to store the output data
   2. Assign a name to the model
@@ -47,6 +42,11 @@ Arguments:
   7. Mass to light ratio
   8. Spaxel size
   9. Number of processors to use
+  
+  Example command:
+`python main.py data example 0.10  5e6  1e7  10.0  1.0 4 1`
+
+This stores the output files of the pipeline into the folder 'data/example' (creating it if it doesnt exist).
 
 __`hsim/`__:
 
