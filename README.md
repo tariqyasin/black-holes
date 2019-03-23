@@ -2,7 +2,7 @@
 
 ## Purpose
 
-A pipeline that does the following:
+A pipeline created for my Master's research that does the following:
   1. Create an input datacube for HSIM representing a Nuclear Star Cluster (NSC) with a central black hole.
   2. Run the datacube through the HARMONI Simulation Pipeline (HSIM) 
   3. Recover a velocity dispersion profile from the HSIM output datacube.
