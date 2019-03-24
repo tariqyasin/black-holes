@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-*.pyc
-__pycache__/
-*.vscode/
-*.DS_Store
-=======
 data/
 *.pyc
 __pycache__/
 *.vscode/
 *.DS_Store
->>>>>>> 7cb2a600453baae85b30f8fbec8bfd586fc351d8
+
